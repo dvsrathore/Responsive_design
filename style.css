@@ -1,0 +1,64 @@
+*{
+    top : 0 ;
+    padding: 0;
+    margin: 0;
+}
+.one{
+    display: flex;
+    background-color: red;
+    float: left;
+    width: 25%;
+    height: 300px;
+}
+.two{
+    display: flex;
+    background-color: blue;
+    width: 25%;
+    float: left;
+    height: 300px;
+}
+.three{
+    display: flex;
+    background-color: green;
+    width: 25%;
+    float: left;
+    height: 300px;
+}
+.four{
+    display: flex;
+    background-color: pink;
+    width: 25%;
+    float: left;
+    height: 300px;
+}
+
+@media only screen and (max-width : 480px ) {
+.one{
+    width: 100%;
+}
+.two{
+    width: 100%;
+}
+.three{
+    width: 100%;
+}
+.four{
+    width: 100%;
+}
+}
+
+
+@media only screen and (max-width : 768px ) and (min-width : 481px) {
+.one{
+    width: 50%;
+}
+.two{
+    width: 50%;
+}
+.three{
+    width: 50%;
+}
+.four{
+    width: 50%;
+}
+}
